@@ -11,6 +11,8 @@ Vai ser instruções e apresentação do projeto.
 
 #### Comandos: 
 
+Cd + nome do arq usamos para entrar dentro de uma pasta.
+
 Git init - Inicia o reposiitório vazio
 
 Git Add + nome do Arq - Manda os arq para a area de "stage"
@@ -48,3 +50,17 @@ Criamos mais um Commit para o novo Arq incluindo no repositório da nossa maquin
 Agora precisamos incluir no nosso GitHub
 
 Git push origin main - Não é necessário o -U porque ja foi criado a conexão.
+
+Podemos pegar o repositório de outras pessoas utilizando o clone. 
+Para começar clicamos no clone e pegamos o link do repositório de outra pessoa. 
+Criamos uma nova pasta com o nome do que repositório que estamos pegando, clicamos com o botão direito, abrimos o Git Bash e colocamos o comando. 
+
+Git clone + o link do repositório que pegamos. Abrindo com o VS Code conseguimos ver o cod. 
+
+Tem como fazer commit direto no GitHub, mas isso pode pegar o prjeto desatualizado. Como pegar? 
+
+Git Pull - Atualiza o que foi mudado no repositório. Pega as alterações que não estão na nossa maquina. 
+
+Fork no GitHub Conseguimos vincular o repositório de outra pessoa no nosso. 
+
+Pull request - Colocamos uma commit no repositório de outra pessoa, manda uma solicitação de contribubição para outra pessoa. Usado para realizar alterações, importante informar o que foi feito para a outra pessoa ficar por dentro do que mudou. 
