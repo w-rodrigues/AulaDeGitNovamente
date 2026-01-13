@@ -2,14 +2,14 @@
 
 Aqui vou deixar anotações de comandos e algumas explicações. 
 
-# Na pasta: 
+#### Na pasta: 
 
 Click com o botão direito e selecione Open Git Bash Here
 
-# Arq readme.md 
+#### Arq readme.md 
 Vai ser instruções e apresentação do projeto.
 
-# Comandos: 
+#### Comandos: 
 
 Git init - Inicia o reposiitório vazio
 
@@ -35,8 +35,16 @@ Primeiro passo:
 Git remote add origin - Git (remote) Conexão (add) Adiconar (origin) Nome do Repositórito + Link 
 
 Segundo passo: 
-Git push -u origin main - Onde estamos dando o "empurrão" dos commits do repositório local para o repositório remoto. Origin (nome) Main (branch)
+Git push -u origin main - Onde estamos dando o "empurrão" dos commits do repositório local para o repositório remoto. O -U cria a conexão. Origin (nome) Main (branch)
 
 PRONTO, VINCULAMOS NO GITHUB.
 
 Clear - Comando que limpa a bash
+
+Git Add . - Inclui todos os arquivos para a area de "Stage", se quiser encaminhar apenas um em especifico use Git Add + nome do Arq.
+
+Criamos mais um Commit para o novo Arq incluindo no repositório da nossa maquina.
+
+Agora precisamos incluir no nosso GitHub
+
+Git push origin main - Não é necessário o -U porque ja foi criado a conexão.
