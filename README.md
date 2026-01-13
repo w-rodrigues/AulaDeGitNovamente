@@ -22,3 +22,21 @@ Commits são versões da nossa "história" o palco do nosso Cód.
 
 Git commit -m "..." - Dessa forma criamos o commit e dentro das " " colocamos o titulo do nosso commit. 
 
+Git branch -M "Main": Altera a nomenclatura de Master para Main. 
+
+To desconfiando que se quisermos escrever qualquer coisa tem que adicionar o -M antes HEHE 
+
+Para adicionar o repositório do seu PC para o GitHub. Clique no botãozão verde para adicionar um novo repositório. 
+Coloque o nome do repositório igual o do seu projeto ou pasta do projeto, importante por uma descrição para se orientar.
+
+Feito isso o proprio GitHub vai te passar um passo a passo do que fazer em seguida.
+
+Primeiro passo: 
+Git remote add origin - Git (remote) Conexão (add) Adiconar (origin) Nome do Repositórito + Link 
+
+Segundo passo: 
+Git push -u origin main - Onde estamos dando o "empurrão" dos commits do repositório local para o repositório remoto. Origin (nome) Main (branch)
+
+PRONTO, VINCULAMOS NO GITHUB.
+
+Clear - Comando que limpa a bash
